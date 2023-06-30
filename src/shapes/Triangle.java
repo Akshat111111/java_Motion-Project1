@@ -44,16 +44,7 @@ public class Triangle extends MyShape{
 		g2.setColor(getBorderColor());
 		g2.drawPolygon(xPoints, yPoints, 3);
 		
-//		xPoints[1] = (int)(xPoints[1] - borderThickness / 2);
-//		xPoints[2] = (int)(xPoints[2] + borderThickness / 2);
-//		
-//		yPoints[0] = (int)(yPoints[0] + borderThickness / 2);
-//		yPoints[1] = (int)(yPoints[1] - borderThickness / 2);
-//		yPoints[2] = (int)(yPoints[2] - borderThickness / 2);
-		
-//		xPoints = new int[] {(int)((getWidth()) / 2 + getX()), (int)(getX() + 1), (int)(getX() + getWidth() - 1)};
-//		yPoints = new int[] {(int)(getY() + 1), (int)(getY() + getHeight() - 1), (int)(getY() + getHeight() - 1)};
-		
+
 		g2.setColor(getInsiderColor());
 		g.fillPolygon(xPoints, yPoints, 3);
 
